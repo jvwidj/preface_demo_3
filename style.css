@@ -1,0 +1,105 @@
+*{
+	margin:  0;
+	padding: 0;
+}
+
+#banner {
+	width: 100%;
+	position: : relative;
+}
+
+#logo {
+	width: 15%;
+	transform: translate(10%,80%);
+}
+
+#topBanner {
+	display: flex;
+}
+
+#logo, #topBanner > div, h1, #topBanner > h2 {
+	position: absolute;
+}
+
+.icon {
+	width: 25x;
+	height: 25px;
+	padding: 5px;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 200%;
+	color: black;
+	transform: translate(20%,60%);
+	text-align: left;
+}
+
+
+h2{
+	font-size: 200%;
+	padding: 5%;
+	text-align: center;
+}
+
+#middlebanner{
+	display: flex;
+	justify-content: center;
+}
+
+#topBanner > h2{
+	font-size: 100%;
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+	padding: 5px;
+	transform: translate(50%,700%);
+}
+
+p{
+	font-size: 150%;
+	color: black;
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+.place{
+	height: 330px;
+	width: 330px;
+	object-fit: contain;
+	border-radius: 20px;
+}
+
+
+#banner2 {
+	height: 400px;
+	width: 98%;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+
+h3{
+	font-size: 200%;
+}
+
+h4{
+	font-size: 150%;
+}
+
+ul, ol, li {
+	list-style-type: none;
+	padding: 10px;
+	text-align: left;
+}
